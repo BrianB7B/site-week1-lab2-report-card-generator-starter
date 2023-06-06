@@ -10,12 +10,12 @@ By the end of the lab, all tests in the report should be passing.
 */
 
 const studentInformation = {
-  name: "FILL_IN_YOUR_NAME_HERE",
-  grade: "FILL_IN_YOUR_GRADE_HERE",
-  advisor: "FILL_IN_YOUR_ADVISOR_HERE",
-  major: "FILL_IN_YOUR_MAJOR_HERE",
-  graduationYear: "FILL_IN_YOUR_GRADUATION_YEAR_HERE",
-  imageUrl: "ADD_A_URL_TO_ANY_IMAGE_HERE",
+  name: "Mark Cuban",
+  grade: "3",
+  advisor: "Harry Cups",
+  major: "Money making",
+  graduationYear: "2030",
+  imageUrl: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR8-I6YvX8K0WO00UO7VMn78QUyxkrxrjcRFS5BFGqvh61SDMBh8kPmLypcdq75Ppedaeo8hgpWhIfvSYg",
 }
 
 let semester = "Spring Semester"
@@ -58,9 +58,25 @@ const gpaPointsLookup = {
 /**
  * QUERY SELECTORS VARIABLES GO HERE
  */
-const dropdownEl = document.querySelector(".dropdown")
+const dropdownEl = document.querySelector(".dropdown");
 // ADD more query selectors here
-
+const studentName = document.querySelector("#student-name");
+const studentAdvisor = document.querySelector("#student-advisor");
+const studentMajor = document.querySelector("#student-major");
+const studentGradeLevel = document.querySelector("#student-grade-level");
+const studentGraduationYear = document.querySelector("#student-graduation-year");
+const studentImage = document.querySelector("#student-image");
+const semesterDropdown = document.querySelector(".semester-dropdown");
+const semesterDropdownClose = document.querySelector(".dropdown closed");
+const semesterDropdownButton = document.querySelector(".dropdown-button");
+const semesterDropdownLabel = document.querySelector(".dropdown-label");
+const semesterDropdownIcon = document.querySelector(".dropdown-icon");
+const semesterDropdownMenu = document.querySelector(".dropdown-menu");
+const fallSemester = document.querySelector("#fall-semester");
+const springSemester = document.querySelector("#spring-semester");
+const winterSemester = document.querySelector("#winter-semester");
+const reportCardTable = document.querySelector("#report-card-table");
+console.log(studentName,studentAdvisor,studentMajor,studentGradeLevel,studentGraduationYear,studentImage,semesterDropdown,semesterDropdownClose,semesterDropdownLabel,semesterDropdownIcon,semesterDropdownMenu,fallSemester,springSemester,winterSemester,reportCardTable)
 /**
  * SOLUTIONS FOR STUDENT INFO DOM UPDATES
  */
