@@ -115,6 +115,7 @@ function updateStudentAdvisor(newStudentAdvisor) {
  */
 function updateMajor(studentMajor) {
   // code goes here
+  studentMajor.innerText=studentMajor;
 }
 
 /**
@@ -124,6 +125,7 @@ function updateMajor(studentMajor) {
  */
 function updateStudentGraduationYear(graduationYear) {
   // code goes here
+  studentGraduationYear.innerText=graduationYear;
 }
 
 /**
@@ -134,6 +136,7 @@ function updateStudentGraduationYear(graduationYear) {
  */
 function updateStudentImage(imageUrl) {
   // code goes here
+  studentImage.src = imageUrl;
 }
 
 /**
