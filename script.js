@@ -86,8 +86,8 @@ console.log(studentName,studentAdvisor,studentMajor,studentGradeLevel,studentGra
  *
  * @param {String} studentName - the name of the student
  */
-function updateStudentName(studentName) {
-  // code goes here
+function updateStudentName(newStudentName) {
+  studentName.innerText = newStudentName;
 }
 
 /**
@@ -95,8 +95,8 @@ function updateStudentName(studentName) {
  *
  * @param {String|Number} studentGradeLevel - the grade level of the student
  */
-function updateStudentGradeLevel(studentGradeLevel) {
-  // code goes here
+function updateStudentGradeLevel(newStudentGradeLevel) {
+  studentGradeLevel.innerText = newStudentGradeLevel;
 }
 
 /**
@@ -104,8 +104,8 @@ function updateStudentGradeLevel(studentGradeLevel) {
  *
  * @param {String} studentAdvisor - the advisor of the student
  */
-function updateStudentAdvisor(studentAdvisor) {
-  // code goes here
+function updateStudentAdvisor(newStudentAdvisor) {
+  studentAdvisor.innerText = newStudentAdvisor;
 }
 
 /**
